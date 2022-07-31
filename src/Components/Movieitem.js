@@ -11,7 +11,7 @@ function Movieitem({item}) {
     <div className="card col-lg-3 moviecard">
       <img src={`${baseurl}${item.poster_path}`} className="img-fluid" alt="img"/>
        <div className="card-body">
-        <h3> Rating:{item.vote_average}</h3>
+        <h3> Rating: {item.vote_average}</h3>
        </div>  
     </div>
   )

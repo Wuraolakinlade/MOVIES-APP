@@ -12,7 +12,7 @@ import axios from "axios";
       const getmoviedata= async()=> {
   
           const res= await axios.get(`https://api.themoviedb.org/3/trending/all/day?api_key=690d1e3621014e3dcc42ddbac1637517`);
-          setItems(res.data.results);
+          setitems(res.data.results);
       }
       getmoviedata();
   
